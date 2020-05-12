@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: io.chika.utils.MathUtilTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! - in io.chika.utils.MathUtilTest
+test  Time elapsed: 0.026 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <2>
+	at io.chika.utils.MathUtilTest.test(MathUtilTest.java:16)
+
