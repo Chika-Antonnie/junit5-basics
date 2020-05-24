@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="io.chika.utils.MathUtilTest" time="0.075" tests="6" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="io.chika.utils.MathUtilTest" time="0.138" tests="6" errors="0" skipped="1" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="NG"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/developer/projects/junit-5-basics/target/surefire/surefirebooter6136082517467353820.jar /home/developer/projects/junit-5-basics/target/surefire 2020-05-24T14-36-55_723-jvmRun1 surefire592191411795775568tmp surefire_0589446909312276035tmp"/>
+    <property name="sun.java.command" value="/home/developer/projects/junit-5-basics/target/surefire/surefirebooter5569862145092982812.jar /home/developer/projects/junit-5-basics/target/surefire 2020-05-24T17-30-10_674-jvmRun1 surefire3396432698606947006tmp surefire_08970499833844448560tmp"/>
     <property name="surefire.test.class.path" value="/home/developer/projects/junit-5-basics/target/test-classes:/home/developer/projects/junit-5-basics/target/classes:/home/developer/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar:/home/developer/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/developer/.m2/repository/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar:/home/developer/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar:/home/developer/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/developer/.m2/repository/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/developer"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/developer/projects/junit-5-basics/target/surefire/surefirebooter6136082517467353820.jar"/>
+    <property name="surefire.real.class.path" value="/home/developer/projects/junit-5-basics/target/surefire/surefirebooter5569862145092982812.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_252-8u252-b09-1~16.04-b09"/>
@@ -58,12 +58,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testDivideMethod" classname="io.chika.utils.MathUtilTest" time="0.013"/>
+  <testcase name="testDivideMethod" classname="io.chika.utils.MathUtilTest" time="0.001"/>
   <testcase name="disabledTest" classname="io.chika.utils.MathUtilTest" time="0">
     <skipped message="void io.chika.utils.MathUtilTest.disabledTest() is @Disabled"/>
   </testcase>
-  <testcase name="testMultiply" classname="io.chika.utils.MathUtilTest" time="0.007"/>
-  <testcase name="testAdd" classname="io.chika.utils.MathUtilTest$addTest" time="0.001"/>
-  <testcase name="testAddPositive" classname="io.chika.utils.MathUtilTest$addTest" time="0.002"/>
-  <testcase name="testAddNegative" classname="io.chika.utils.MathUtilTest$addTest" time="0"/>
+  <testcase name="testMultiply" classname="io.chika.utils.MathUtilTest" time="0.005"/>
+  <testcase name="testAdd" classname="io.chika.utils.MathUtilTest$addTest" time="0.015"/>
+  <testcase name="testAddPositive" classname="io.chika.utils.MathUtilTest$addTest" time="0.023"/>
+  <testcase name="testAddNegative" classname="io.chika.utils.MathUtilTest$addTest" time="0.001"/>
 </testsuite>

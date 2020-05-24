@@ -48,7 +48,7 @@ public class MathUtilTest {
     @DisplayName("Test Multiplication")
     void testMultiply(){
         assertAll(
-                    ()->assertEquals(4,mathUtil.multiplyNumbers(2,2)),
+                    ()->assertEquals(5,mathUtil.multiplyNumbers(2,2)),
                     ()->assertEquals(6,mathUtil.multiplyNumbers(-2,-3)),
                     ()->assertEquals(0,mathUtil.multiplyNumbers(8,0)),
                     () -> assertEquals(-6,mathUtil.multiplyNumbers(2,-3))

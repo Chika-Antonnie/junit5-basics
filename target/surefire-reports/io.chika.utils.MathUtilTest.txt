@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: io.chika.utils.MathUtilTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.075 s - in io.chika.utils.MathUtilTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.138 s - in io.chika.utils.MathUtilTest
